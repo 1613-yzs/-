@@ -8,7 +8,7 @@ body{
   overflow-y: scroll;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 100;
-  background-color: #eee;
+  /*background-color: #eee;*/
 }
 
 footer{

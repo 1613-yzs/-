@@ -1,0 +1,164 @@
+.classify-all{
+	width: 100%;
+}
+.classify-title{
+	height:40px;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.go-back-home{
+	width: 50px;
+	height: 40px;
+}
+.go-back-home a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+}
+.go-back-home a img{
+	width: 32px;
+	height: 32px;
+	max-width: 100%;
+	vertical-align: middle;	
+	margin-top:2px;
+}
+.header-title{
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 600;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.classify-login{
+	height: 40px;
+	width: 50px;
+}
+.classify-login a{
+	display: block;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 400;
+	text-align: center;
+	line-height: 40px;
+}
+.all-nav{
+	display: flex;
+	height: 42px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	align-items:center ;
+	position: relative;
+}
+.all-nav a{
+	display: block;
+	padding: 0 15px 0 14px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 14px;
+	color: #333333;
+	border-right: 2px solid #ddd;	
+	display: inline-table;
+}
+.all-nav a:last-of-type{
+	border-right: none;
+}
+.all-banner{
+	height: 234px;
+	background-color: #d70c19;
+	padding-bottom: 4px;
+}
+.banner-main{
+	height: 100%;
+}
+.bn-img{
+	width: 414px;
+	height: 100%;
+}
+.bn-img a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bn-img a img{
+	width: 100%;
+	height: 100%;
+}
+.all-main{
+	padding-bottom: 74px;
+}
+.all-main-list:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.all-pd{
+	width: 196px;
+	border: 2px solid #cccacb;
+	border-radius: 6px;
+	margin:12px 0 0 8px;
+	 
+}
+.all-pd a{
+	display: block;
+	width: 100%;
+	margin:20px auto;
+}
+.all-pd a img{
+	width: 100%;
+}
+.all-pd-name{
+	width: 166px;
+	margin: 0 auto;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #33b6dc;
+	border-bottom: 1px solid #CCCccc;
+}
+.all-pd-price{
+	margin-top: 8px;
+	padding-left: 16px;
+}
+.all-pd-price .price{
+	font-size: 14px;
+	color: #ff0000;
+	line-height: 20px;
+}
+.all-pd-price .market-price{
+	font-size: 10px;
+	color: #999999;
+	text-decoration: line-through;
+}
+.all-experience{
+	padding-right: 14px;
+	text-align: right;
+	color: #cccccc;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.all-list-num{
+	width: 100%;
+	
+	display: flex;
+	justify-content: center;
+	margin-top: 18px;
+}
+.all-list-num a{
+	display: block;
+	font-size: 14px;
+	padding:12px 15px;
+	color: #aaaaaa;
+	border: 1px solid #aaaaaa;
+}
+
+
+
+
+
+
