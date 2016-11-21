@@ -1,7 +1,7 @@
 .classify-all{
 	width: 100%;
 }
-.classify-title{
+/*.classify-title{
 	height:40px;
 	background-color: #191919;
 	display: flex;
@@ -45,7 +45,7 @@
 	font-weight: 400;
 	text-align: center;
 	line-height: 40px;
-}
+}*/
 .all-nav{
 	display: flex;
 	height: 42px;

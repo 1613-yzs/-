@@ -10,6 +10,9 @@ body{
   font-weight: 100;
   /*background-color: #eee;*/
 }
+#box{
+	height: 100%;
+}
 
 footer{
   width: 100%;
@@ -22,3 +25,51 @@ footer{
 footer div{
   flex:1;
 }
+/*头部一样的*/
+.common-title{
+	height:40px;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.go-back-home{
+	width: 50px;
+	height: 40px;
+}
+.go-back-home a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+}
+.go-back-home a img{
+	width: 32px;
+	height: 32px;
+	max-width: 100%;
+	vertical-align: middle;	
+	margin-top:2px;
+}
+.header-title{
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 600;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.classify-login{
+	height: 40px;
+	width: 50px;
+}
+.classify-login a{
+	display: block;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 400;
+	text-align: center;
+	line-height: 40px;
+}
+
+
