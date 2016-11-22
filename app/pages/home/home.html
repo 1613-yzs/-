@@ -36,19 +36,19 @@
 	          </p>
 	          <div class="menus">
 	          	<dl>
-	          		<dt><a href="http://mobile.uzise.com/topic-integral_mall"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-1.png"></a></dt>
+	          		<dt><a ui-sref="home_sign"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-1.png"></a></dt>
 	          		<dd>每日签到</dd>
 	          	</dl>
 	          		<dl>
-	          		<dt><a href="http://mobile.uzise.com/topic-yydb/list"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-2.png"></a></dt>
+	          		<dt><a ui-sref="one"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-2.png"></a></dt>
 	          		<dd>一元夺宝</dd>
 	          	</dl>
 	          		<dl>
-	          		<dt><a href="http://mobile.uzise.com/member/score"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-3.png"></a></dt>
+	          		<dt><a ui-sref="flower"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-3.png"></a></dt>
 	          		<dd>我的柚花</dd>
 	          	</dl>
 	          		<dl>
-	          		<dt><a href="http://mobile.uzise.com/"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-1.png"></a></dt>
+	          		<dt><a ui-sref="classify"><img src="http://mobile.uzise.com/assets/mob/images/index/2016/u-b-1.png"></a></dt>
 	          		<dd>查看分类</dd>
 	          	</dl>
 	          </div>
@@ -91,7 +91,7 @@
 	          <section class="recommend">
 	          	<div class="title">
 	          		<dl>
-	          			<dt>精选推荐</dt>
+	          			<dt>新品推荐</dt>
 	          			<dd>NWE ARRIVAL</dd>
 	          			
 	          		</dl>
@@ -149,7 +149,7 @@
 	          		<p><img src="http://mobile.uzise.com/assets/mob/images/index/features1.jpg"></p>
 	          		全部产品
 	          	</a>
-	          	<a href="../../pages/home_story/story.html">
+	          	<a ui-sref="home_story">
 	          		<p><img src="http://mobile.uzise.com/assets/mob/images/index/features3.jpg"></p>
 	          		品牌故事
 	          	</a>
@@ -165,7 +165,7 @@
 	          		<p><img src="http://mobile.uzise.com/assets/mob/images/index/features6.jpg"></p>
 	          		分享有礼
 	          	</a>
-	          	<a href="../../pages/home_threeGrapefruit/threeGrapefruit.html">
+	          	<a ui-sref="home_threeGrapefruit">
 	          		<p><img src="http://mobile.uzise.com/assets/mob/images/index/features4.jpg"></p>
 	          		三颗柚
 	          	</a>
@@ -180,14 +180,6 @@
 	          </aside>
 	          <div class="announcement">公告:
 	          	<div class="yz">
-	          		<!--<script type="text/html" id="yz">
-	          			<%for(var i in response){%>
-	          				
-	          			
-	          		<a href=""><%=response[i].title%></a>
-	          		<%}%>
-	          		<a href=""><%=response[0].title%></a>
-	          		</script>-->
 	          		<a ng-repeat="x in brands">
 	          			{{x.title}}
 	          		</a>

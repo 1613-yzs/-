@@ -34,6 +34,6 @@ nav a:hover{
 #his_foot a p img{
 	width: 0.6280193236714976rem;height: 0.6280193236714976rem;
 }
-#his_foot div img{
-	width: 1.4492753623188406rem;height: 1.714975845410628rem;
+#his_foot a:nth-of-type(3) img{
+	width: 1.5492753623188406rem;height: 1.814975845410628rem;margin-top:-0.6rem ;
 }
