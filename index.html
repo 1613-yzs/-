@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="projectDemo">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="app/common/css/main.css" media="screen" title="no title"/>
+		<link rel="stylesheet" href="app/common/css/reset.css" />
+		<link rel="stylesheet" href="app/common/css/swiper-3.3.1.min.css" />
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="bower_components/angular-css/angular-css.min.js"></script>
+		<script src="app/common/js/baiduTemplate.js"></script>
+		<script src="app/common/js/swiper-3.3.1.min.js"></script>
+		<script src="app/common/js/jquery-3.1.0.min.js"></script>
+		
+	</head>
+	<body>
+		<div ui-view  ></div>
+		<script src="app/pages/home/home.js"></script>
+		<script src="app/pages/classify/classify.js"></script>
+		<script src="app/pages/music/music.js"></script>
+		<script src="app/pages/cart/cart.js"></script>
+		<script src="app/pages/mine/mine.js"></script>
+		<script src="app/app.js"></script>
+		<script>
+				document.documentElement.style.fontSize = innerWidth/10+"px";
+				window.onresize = function(){
+				document.documentElement.style.fontSize = innerWidth/10+"px";
+			}
+		</script>
+	</body>
+</html>

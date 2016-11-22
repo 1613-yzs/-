@@ -1,0 +1,60 @@
+*{
+	padding: 0;margin: 0;
+	box-sizing: border-box;font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+#try_head{
+	width: 10rem;height:0.9661835748792271rem;display:flex;
+	justify-content: space-between;align-items:center;
+	font-size:0.2898550724637681rem ;color:#fff;padding: 0 0.1932367149758454rem;background: url('http://mobile.uzise.com/topic/mobile/20160514/images/fresh_mobile_01.jpg') no-repeat;background-size: 100%;
+}
+#try_head a{
+	width: 1.4975rem;height: 0.7246376811594203rem;
+	text-align: center;line-height: 1.0246376811594203rem;
+}
+#try_head a img{
+	width: 1.4975rem;height: 0.48309178743961356rem;
+}
+#try_head a:nth-of-type(2){
+	margin-top: 0.1rem;
+}
+.try_main{
+	width: 10rem;position: relative;margin-bottom: 1.2rem;
+}
+.try_main .try_pic{
+	width: 10rem;font-size: 0;
+}
+.try_main .try_pic img{
+	width: 10rem;
+}
+.try_main .tyr_foot{
+	width: 10rem;height: 1.1594202898550725rem;
+	display: flex;justify-content: space-around;
+	align-items:center;position: absolute;left: 0;bottom:0.5077rem ;
+	padding: 0 0.2rem;
+}
+.try_main .tyr_foot a{
+	width: 1.9806763285024156rem;height: 1.1594202898550725rem;
+	line-height: 1.1594202898550725rem;
+	border: 2px solid #000;border-radius: 5px;
+}
+.try_main .tyr_foot a img{
+	width: 1.9806763285024156rem;height: 1.1594202898550725rem;
+}
+#his_foot{
+	width: 10rem;height: 1.2077294685990339rem;display:flex; 	justify-content: space-around;align-items:center;
+	background-color: #d70c19;position: fixed;left: 0;bottom: 0;
+	
+}
+#his_foot a{
+	width: 1.7391304347826086rem;height: 1.2077294685990339rem;text-align: center;font-size: 0.3140096618357488rem;margin-top: 0.2rem;
+	color: #fff;line-height: 0.3rem;
+}
+#his_foot a p img{
+	width: 0.6280193236714976rem;height: 0.6280193236714976rem;
+}
+#his_foot a:nth-of-type(3) img{
+	width: 1.5492753623188406rem;height: 1.814975845410628rem;margin-top:-0.6rem ;
+}
