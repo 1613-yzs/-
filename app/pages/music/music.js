@@ -6,6 +6,17 @@ angular.module('projectDemo.musicPage',[])
     name:'music',
     url:'/music',
     css:'app/pages/music/music.css',
-    templateUrl:'app/pages/music/music.html'
+    templateUrl:'app/pages/music/music.html',
+    controller:"muCtrl",
+    
   })
 })
+.controller('muCtrl',function($scope){
+	$scope.muRun = function(){
+		
+	}
+})
+.controller('sd',function($scope){
+	
+})
+

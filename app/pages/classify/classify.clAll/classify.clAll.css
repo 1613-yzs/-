@@ -1,6 +1,12 @@
 .classify-all{
 	width: 100%;
 }
+.classify-pd{
+	display: none;
+}
+footer{
+	display: block;
+}
 /*.classify-title{
 	height:40px;
 	background-color: #191919;

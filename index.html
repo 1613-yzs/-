@@ -12,9 +12,9 @@
   </head>
   <body>
 		<div ui-view id="box"></div>
-    <footer>
+    <footer ng-hide="wowowo" <!--ng-controller='footerCtrl'-->>
         <div><a ui-sref="home">home</a></div>
-        <div><a ui-sref="classify">classify</a></div>
+        <div ><a ui-sref="classify" <!--ng-click="goToClassify()"-->>classify</a></div>
         <div><a ui-sref="music">music</a></div>
         <div><a ui-sref="cart">cart</a></div>
         <div><a ui-sref="mine">mine</a></div>

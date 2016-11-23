@@ -9,3 +9,10 @@ angular.module('projectDemo.cartPage',[])
     templateUrl:'app/pages/cart/cart.html',
   })
 })
+.controller('cart-back',function($scope){
+	$scope.visible = true;
+	$scope.back_home = function(){
+		$scope.visible = false;
+		console.log(22)
+	}
+})

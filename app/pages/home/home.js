@@ -7,7 +7,7 @@ angular.module('projectDemo.homePage',[])
     url:'/home',
     css:'app/pages/home/home.css',
     templateUrl:'app/pages/home/home.html',
-    controller:'homeCtrl'
+    //controller:'homeCtrl'
   })
   .state({
     name:'home.part1',
@@ -24,7 +24,11 @@ angular.module('projectDemo.homePage',[])
     templateUrl:'app/pages/home/home.part2/home.part2.html'
   })
 })
-.controller('homeCtrl',function($scope){
-
-   
-})
+//angular.module("projectDemo",[])
+//.controller('footerCtrl',function($scope,$timeout){
+//	$scope.goToClassify = function(){
+//		$timeout(function(){
+//			$scope.wowowo = false;
+//		},500)	
+//	}
+//})
