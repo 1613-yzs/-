@@ -72,5 +72,20 @@ footer div{
 	text-align: center;
 	line-height: 40px;
 }
+#his_foot{
+	width: 10rem;height: 1.2077294685990339rem;display:flex; 	justify-content: space-around;align-items:center;
+	background-color: #d70c19;position: fixed;left: 0;bottom: 0;
+	
+}
+#his_foot a{
+	width: 1.7391304347826086rem;height: 1.2077294685990339rem;text-align: center;font-size: 0.3140096618357488rem;margin-top: 0.2rem;
+	color: #fff;line-height: 0.3rem;
+}
+#his_foot a p img{
+	width: 0.6280193236714976rem;height: 0.6280193236714976rem;
+}
+#his_foot a:nth-of-type(3) img{
+	width: 1.5492753623188406rem;height: 1.814975845410628rem;margin-top:-0.6rem ;
+}
 
 
