@@ -1,8 +1,49 @@
+<div class="classify-pd">
+	<div class="classify-header">
+		<span class="goHomeBack">
+			<a href="#home"><img src="http://ogubink6a.bkt.clouddn.com/29deafd34f126d3bdb81bf4c5c7b8b5b.png"/></a>
+		</span>
+		<div class="cl-search">
+			<input type="text" placeholder="搜索" />
+		</div>
+		<span class="cl-search-pd">
+			搜索
+		</span>
+	</div>
+	<ul class="classify_list" >
+		<li><a ui-sref="classify.clAll">全部商品:</a>全部产品</li>
+		<li class="cl-base"   ng-click="intoba()"><a>基础护肤:</a>
+			<div class="cl-base-list" ng-hide="flag1">
+				<span ng-repeat='x in lists1'>
+					{{x.listname}}
+				</span>
+			</div>
+		</li>
+		<li class="cl-hot" ng-click='intoht()'><a>热销护肤:</a>
+			<div class="cl-hot-list" ng-hide="flag2">
+				<span ng-repeat='x in lists2'>
+					{{x.listname}}
+				</span>
+			</div>
+		</li>
+		<li class="cl-function" ng-click = 'infun()'><a>功能护肤:</a>
+			<div class="cl-function-list" ng-hide="flag3">
+				<span ng-repeat='x in lists3'>
+					{{x.listname}}
+				</span>
+			</div>
+		</li>
+		<li class="cl-series" ng-click ='inser()'><a >系列护肤:</a>
+			<div class="cl-series-list" ng-hide="flag4">
+				<span ng-repeat='x in lists4'>
+					{{x.listname}}
+				</span>
+			</div>
+		</li>
+	</ul>
+</div>
 
 
-<ul>
-	<li><a ui-sref="classify.clAll">全部商品</a></li>
-</ul>
 
 
 <div ui-view></div>
